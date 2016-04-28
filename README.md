@@ -30,7 +30,7 @@ see: https://www.pivotaltracker.com/story/show/84690132
 ```
 
 - `name` is unique id for this shortcut~~, which also acts some sort of namespace. here `w#gototabnumber1` denotes that this shortcut is in `w` group, and eventually will be displayed along with other shortcuts in `w` group.~~
-- `binding` is an array of two arrays. these arrays hold key-bindings defined for windows and mac respectively. shortcuts are always in mousetrap syntax.
+- `binding` is an array of two arrays. these arrays hold key-bindings defined for windows and mac respectively. shortcuts are always in mousetrap syntax.
 - if a shortcut is `readonly` it cannot be overridden by any shortcut in same namespace. we only display them but do not allow them to be set.
 - `hidden` shortcuts are shortcuts that we had to implicitly override for some reason (eg ace#showSettingsMenu) and have to keep them around to prevent getting them overridden. they are `hidden` because they are not displayed.
 
