@@ -1,8 +1,11 @@
 # tools for creating keymap config
 
-type `make` to create json & csv files under `out/` directory.
+```
+$ npm install
+$ make
+```
 
-see: https://www.pivotaltracker.com/story/show/84690132
+to generate json & csv files under `out/` directory that we can use for shortcuts.
 
 # keymap item
 
